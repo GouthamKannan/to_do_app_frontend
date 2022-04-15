@@ -79,7 +79,7 @@ export default class Login extends Component {
                         <h3>Log In</h3>
                         <div className="form-group my-1">
                             <label className="my-2">Email ID</label>
-                            <input type="text" name="email" className="form-control" placeholder="Enter email ID"
+                            <input type="email" name="email" className="form-control" placeholder="Enter email ID"
                              value={this.state.email} onChange={evt => this.handleChange(evt)}/>
                         </div>
                         <div className="form-group my-1">
